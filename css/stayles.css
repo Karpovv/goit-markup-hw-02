@@ -1,4 +1,4 @@
-/* ----------global---------- */
+/*-origin- */
 
 :root {
   --text-decoration: Roboto, Raleway, sans-serif;
@@ -16,6 +16,7 @@
   --logo-color: #2196f3;
   --botton-color: #f5f4fa;
 }
+
 body {
   font-family: var(--text-decoration);
   background-color: var(--bg-color);
@@ -25,7 +26,8 @@ body {
 .config li {
   list-style: none;
 }
-/* ----------header---------- */
+
+/* -header- */
 
 .logo-style {
   font-family: "Raleway";
@@ -50,6 +52,7 @@ body {
 .link:hover {
   color: var(--link-color);
 }
+
 .logo {
   color: var(--logo-color);
 }
@@ -61,7 +64,8 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* ----------main---------- */
+/* -main-*/
+
 .text-c-2 {
   color: var(--second-text-color);
 }
@@ -82,7 +86,8 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-/* section hero */
+
+/* -section-hero- */
 
 .hero-botton,
 .scroll-list {
@@ -90,6 +95,7 @@ body {
   border: none;
   cursor: pointer;
 }
+
 .hero-botton {
   font-family: "Roboto";
   font-weight: 700;
@@ -102,6 +108,7 @@ body {
   background-color: var(--link-color);
   color: var(--link-revers-color);
 }
+
 .hero-botton:focus,
 .hero-botton:hover {
   background-color: #188ce8;
@@ -110,11 +117,12 @@ body {
 .hiden-title {
   display: none;
 }
+
 .section-bg {
   background-color: var(--section-color-1);
 }
 
-/* section 2 */
+/* -section-2 */
 
 .s-2-t {
   font-family: "Roboto";
@@ -124,20 +132,24 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* section 3 */
+/* -section-3 */
+
 .title-2 {
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
 }
+
 .title-3 {
   font-style: bold;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
 }
-/* section 4 */
+
+/* -section-4 */
+
 .team-list {
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -156,6 +168,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
+
 .work-position {
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -163,7 +176,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* ----------portfilo main---------- */
+/* -main-portfolio- */
 
 .content-list {
   background: var(--bg-color);
@@ -180,6 +193,7 @@ body {
   letter-spacing: 0.03em;
   background-color: var(--botton-color);
 }
+
 .l-b:focus,
 .l-b:hover {
   background-color: var(--link-color);
@@ -192,13 +206,14 @@ body {
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
 }
+
 .text-coment {
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
 }
 
-/* ----------footer---------- */
+/* -footer- */
 
 address {
   font-family: none;
