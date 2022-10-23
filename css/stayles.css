@@ -23,7 +23,7 @@ body {
   color: var(--text-color);
 }
 
-.config li {
+.option li {
   list-style: none;
 }
 
