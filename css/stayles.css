@@ -1,7 +1,7 @@
 /*-origin- */
 
 :root {
-  --text-decoration: Roboto, Raleway, sans-serif;
+  --text-decoration: "Roboto", "Raleway", sans-serif;
   --bg-color: #ffffff;
   --section-color-1: #2f303a;
   --section-color-2: #f5f4fa;
@@ -21,9 +21,6 @@ body {
   font-family: var(--text-decoration);
   background-color: var(--bg-color);
   color: var(--text-color);
-}
-
-.option li {
   list-style: none;
 }
 
@@ -101,9 +98,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   background-color: var(--link-color);
   color: var(--link-revers-color);
@@ -126,7 +120,6 @@ body {
 
 .s-2-t {
   font-family: "Roboto";
-  font-style: normal;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -142,7 +135,7 @@ body {
 }
 
 .title-3 {
-  font-style: bold;
+  font-weight: bold;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -198,7 +191,8 @@ body {
 .l-b:hover {
   background-color: var(--link-color);
   color: var(--link-revers-color);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .p-title-2 {
